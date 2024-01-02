@@ -1,7 +1,11 @@
+import React from "react";
+
+import MainHeader from "./MainHeader";
+
 function App() {
   return (
     <div className="App">
-      <h1>React App</h1>
+      <MainHeader />
     </div>
   );
 }
